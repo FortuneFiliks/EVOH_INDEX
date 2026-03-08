@@ -1,0 +1,86 @@
+    .nav_section{
+		width : 100%;
+		background-color :#eff6ff;
+		height : 80px;
+		position : fixed;
+		transform : translateY(-80px);
+		z-index : 999;
+        box-shadow : 1px 1px 3px 3px #3e3e3e4C;
+		transition : transform 1.5s ease-in-out;
+        /* display : none; */
+	}		
+
+
+    .nav_section_flex{
+		width : 90%;
+		height : 100%;
+		display : flex;
+		flex-direction : row;
+		justify-content : space-between;
+		align-items : center;
+		margin-left : auto;
+		margin-right : auto;
+	}
+
+    .brand_logo{
+		width : 150px;
+		height : 60px;
+	}
+	
+
+	
+	#menu_bars{
+		font-size : 2rem;
+		color : #002D62;
+		cursor : pointer;
+	}
+	
+	#search_icon{
+		font-size : 2rem;
+		color : #002D62;		
+	}
+
+@media(min-width : 1280px){
+    .nav_section{
+		width : 100%;
+		background-color :#eff6ff;
+		height : 80px;
+		position : fixed;
+		transform : translateY(-80px);
+		z-index : 999;
+        box-shadow : 1px 1px 3px 3px #3e3e3e4C;
+		transition : transform 1.5s ease-in-out;
+        /* display : none; */
+	}		
+
+
+    .nav_section_flex{
+		width : 90%;
+		height : 100%;
+		display : flex;
+		flex-direction : row;
+		justify-content : space-between;
+		align-items : center;
+		margin-left : auto;
+		margin-right : auto;
+	}
+
+    .brand_logo{
+		width : 187.5px;
+		height : 75px;
+	}
+	
+
+	
+	#menu_bars{
+		font-size : 2.25rem;
+		color : #002D62;
+		cursor : pointer;
+	}
+	
+	#search_icon{
+		font-size : 2.5rem;
+		color : #002D62;		
+	}
+	
+}
